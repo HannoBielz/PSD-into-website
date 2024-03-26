@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -9,12 +8,13 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 
 @import url("./css/header-footer.css");
 @import url("./css/hero.css");
@@ -23,9 +23,6 @@ h1, h2, h3 {
 @import url("./css/our-style.css");
 @import url("./css/team.css");
 @import url("./css/watch.css");
-
-
-
 
 /**
 
@@ -79,4 +76,3 @@ Roboto: CSS classes
 
 
 */
-

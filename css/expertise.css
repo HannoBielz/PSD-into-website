@@ -12,7 +12,4 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: 0 1 0 0;
-  & img {
-  }
 }

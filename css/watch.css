@@ -1,3 +1,16 @@
 .watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("../Images/png/bgk-middle.png");
+  min-height: 20rem;
+  background-size: cover;
+  background-position: center center;
+
+  & h4 {
+    color: white;
+    font-weight: 100;
+    margin-top: 1.5rem;
+  }
 }

@@ -1,0 +1,46 @@
+.header {
+  padding: 1.5rem 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  & .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  & .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  & .logo-tagline {
+    font-size: 2rem;
+    color: #02ded0;
+    font-weight: 300;
+  }
+
+  & .main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  & .main-nav ul a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  & .main-nav ul a.current,
+  & .main-nav ul a:hover {
+    color: #02ded0;
+  }
+}

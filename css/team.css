@@ -1,13 +1,14 @@
 .team {
-  .team {
-    display: flex;
-    line-height: 2rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("../Images/png/bgk-header.png");
-    min-height: 30rem;
-    color: white;
+  display: flex;
+  line-height: 1.2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../Images/png/bgk-header.png");
+  min-height: 30rem;
+  color: white;
+  & p {
+    padding-block-start: 1rem;
   }
 }
 
@@ -15,8 +16,8 @@
 .column {
   float: left;
   width: 25%;
-  margin-bottom: 16px;
   padding: 0 8px;
+  text-align: center;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -30,11 +31,21 @@
 /* Add some shadows to create a card effect */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: white;
+  border-width: 0.01em;
+  border-style: solid;
+  border-top: none;
 }
 
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+  font-size: xx-small;
+  padding: 0rem 1rem 0.1rem 1rem;
+  line-height: 0.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 /* Clear floats */

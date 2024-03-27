@@ -1,0 +1,46 @@
+.hero {
+  background: url("../Images/png/bgk-header.png") center center no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem 2rem 2rem;
+
+  & .container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  & h1 {
+    position: relative;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+  }
+  & h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 2px;
+    background: #02ded0;
+  }
+
+  & p {
+    margin: 2rem 0;
+  }
+
+  & .btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: #02ded0;
+    border: #02ded0 2px solid;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}

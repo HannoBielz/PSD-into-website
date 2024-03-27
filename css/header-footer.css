@@ -45,6 +45,7 @@
   }
 }
 
+
 .footer {
   background: url("../Images/png/bgk-footer.png") center center no-repeat;
   background-size: cover;
@@ -183,3 +184,4 @@
     text-transform: uppercase;
   }
 }
+

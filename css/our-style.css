@@ -1,3 +1,4 @@
+/* Section */
 .our-story {
   display: flex;
   line-height: 1.2rem;
@@ -7,28 +8,21 @@
   min-height: 15rem;
   color: white;
 }
-/* one layout row */
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
-/* two layout columns */
-.column {
-  float: left;
-  width: 30%;
-  padding: 0 8px;
-  text-align: left;
-}
-
-.logo-container {
-  padding: 0 8px;
-}
-
-.custom-text {
+.text {
   color: #413d4b;
 }
+
+.textfield {
+  "Segoe UI", Helvetica, Arial, serif;
+  font-size: 1em;
+  color: #707070;
+  padding: 0;
+  border-width: 1px;
+  border-radius: 1px;
+  position: relative;
+}
+
 
 .heading {
   padding-block-start: 1rem;
@@ -41,7 +35,48 @@
   font-style: inherit;
 }
 
-/* Button */
+/* Contact form */
+.form {
+  background-color: yellow;
+}
+
+text {
+  font-family: "Segoe UI", Helvetica, Arial, serif;
+  font-size: 1em;
+  color: #00e0d0;
+  padding: 0;
+  border-width: 1px;
+  border-radius: 1px;
+  position: relative;
+}
+
+textarea {
+  padding: 10;
+  border-width: 1px;
+  border-style: soldid;
+  resize: none;
+}
+
+textarea:focus {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00e0d0;
+}
+
+input {
+  border-width: 1px;
+  border-style: solid;
+  color: #00e0d0;
+}
+
+.formular {
+  display: block;
+  width: 90%;
+  margin: 20px Auto;
+  padding: 10px;
+}
+
+/* Submit button */
 .btn-container {
   padding-block-start: 0.3rem;
   margin-bottom: 2rem;
@@ -53,7 +88,7 @@
   font-style: normal;
 }
 
-/* Button with hover effect */
+/* Submit button with hover effect */
 .btn {
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -74,4 +109,29 @@
   background-color: #00e0d0;
   color: #ffffff;
   border: solid 1px #00e0d0;
+}
+
+/* Brand labels gallery */
+.brand-label-gallery {
+  background-color: orange;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.brand-label-gallery-item {
+  padding: 10;
+  width: 20rem;
+  height: auto;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img {
+  width: 10rem;
+  height: auto;
 }
